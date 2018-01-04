@@ -30,8 +30,7 @@ stdIn:8.1 Error: unbound variable or constructor: z
 [opening first.sml]
 val x = 34 : int
 val y = 17 : int
-val it = () : unit
-- use "first.sml";
+val it = () : unit use "first.sml";
 [opening first.sml]
 val x = 34 : int
 val y = 17 : int
@@ -43,4 +42,33 @@ val it = () : unit
 val it = true : bool
 - 42;
 val it = 42 : int
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.81 [built: Mon Oct  2 10:01:15 2017]
+- 
+
+Process sml finished
+Standard ML of New Jersey v110.81 [built: Mon Oct  2 10:01:15 2017]
+- use "first.sml";[opening first.sml]
+val x = 34 : int
+val y = 17 : int
+val z = 70 : int
+val q = 71 : int
+val abs_of_z = 70 : int
+val abs_of_z_simpler = 70 : int
+val it = () : unit
+
+
+Process sml finished
+Standard ML of New Jersey v110.81 [built: Mon Oct  2 10:01:15 2017]
+- use "shadowing.sml";
+[opening shadowing.sml]
+val a = 10 : int
+val b = 20 : int
+val a = 5 : int
+val c = 20 : int
+val d = 5 : int
+val a = 6 : int
+val it = () : unit
 - 
